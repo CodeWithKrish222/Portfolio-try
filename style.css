@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.container{
+    font-family: poppins;
+    height: 100vh;
+    width: 100%;
+}
+
+.navbar{
+    display: flex;
+    gap: 4rem;
+    height: 10vh;
+    align-items: center;
+    justify-content: center;
+    background-color: #282C35;
+    position: sticky;
+
+
+    
+}
+
+.navbar > a{
+    text-decoration: none;
+    font-size: 25px;
+    color: red;
+    position: sticky;
+
+
+    
+}
+.navbar > a:hover{
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.main{
+    display: flex;
+    height: 70vh;
+    font-family: poppins;
+    font-size: 20px;
+justify-content: center;
+align-items: center;
+background-color:  black;
+color: white;
+}
+
+.main > img{
+    height: 550px;
+    width: 500px;
+    border-radius: 100%;    
+    margin-left: 80px;
+}
+
+#AboutMe{
+    font-family: poppins;
+    font-size: 40px;
+    text-align: center;
+}
+
+.mainname{
+    color: red;
+}
+
+.containeraboutme{
+    background-color: #282C35 ;
+    padding-top: 50px;
+}
+#AboutMe{
+    background-color: #282C35 ;
+    color: red;
+    padding-top: 40px;
+
+
+}
+
+#aboutme{
+    color: white;
+    font-family: poppins;
+    font-size: 20px;
+    text-align: justify;
+    font-size: 25px;
+    padding-bottom: 40px;
+
+}
+
+#ExperienceHead{
+    font-size: 40px;
+    font-family: poppins;
+    text-align: center;
+    padding: 60px;
+
+}
+
+.experience{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    font-family: poppins;
+    text-align: justify;
+    
+}
+
+.experience1{
+    padding-top: 50px;
+    padding-bottom: 70px;
+    padding-left: 360px;
+    padding-right: 360px;
+
+}
+#ExperienceHead{
+    color: red;
+}
+
+#aboutme{
+    padding-left: 360px;
+    padding-right: 360px;
+}
+
+#myworks{
+    color: red;
+    font-size: 40px;
+    text-align: center;
+    background-color: #282C35;
+    padding: 80px;
+}
+.works{
+    height: 80vh;
+    display: flex;
+    justify-content: space-around;
+    margin-right: 100px;
+    
+}
+.card{
+    height: 300px;
+    width: 300px;
+    background-color: #282C35;
+    font-size: 25px;
+    font-family: poppins;
+    
+}
+.card1 , .card2 ,.card3{
+
+margin-left: 65px;
+margin-top: 150px;
+}
+
+#contacts{
+    background-color: #282C35;
+    color: red;
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 0;
+
+
+}
+#belowcontactme{
+    background-color: #282C35;
+    color: red;
+    text-align: center;
+    font-size: 25px;
+
+}
+
+#email{
+    font-size: 40px;
+    font-family: poppins;  
+    background-color: #282C35;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+
+
+}
+.connect{
+    display: flex;
+    gap: 3.5rem;
+    justify-content: center;
+    padding-top: 50px;
+
+
+}
+.copyright{
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+}
